@@ -1,47 +1,349 @@
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <title>Gallery</title>
   </head>
   <body>
-
-  <main>
-
-  <!-- Contact -->
-  <section>
-    
-    <div class="group">
-      <div class="item-double">
-        <form
-        action="https://formspree.io/f/xlearygg"
-        method="POST"
-      >
-      <label>
-        Your Name:
-        <input type="name" name="Enter name">
-      </label>
-        <label>
-          Your Email:
-          <input type="email" name="buffstralia@gmail.com">
-        </label>
-        <label>
-          Your Message:
-          <textarea name="message"></textarea>
-        </label>
-      
-        <!-- your other form fields go here -->
-      
-        <button type="submit">Send</button>
-      </form>
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+         
+          <a class="navbar-brand offset-3 " href="#"><h2>La Piccola Roma</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-2">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><h3>Menu</h3> <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><h3>Specialties</h3></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><h3>Reservations</h3></a>
+              </li>
+          
+            </ul>
+          </div>
+        </nav>  
       </div>
-    
+    </header>
+
+    <section>
+   <div class="container mt-0 my-0">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="pic d-block  w-100 rounded-bottom shadow-lg p-3 mb-5 bg-white rounded" src="/images/rest5.png" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>The Finest in Upscale Dining</h5>
+            <p>Come home to Italian tradition</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="pic d-block w-100 shadow-lg p-3 mb-5 bg-white rounded" src="/images/spag.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>We only use the finest ingredients</h5>
+            <p>Shipped straight from Italy</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="pic d-block w-100 shadow-lg p-3 mb-5 bg-white rounded " src="/images/rest4.png" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tyr our amazing risotto</h5>
+            <p>It's out of this world</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-   </section>
-</main>
-    <script src="script.js"></script>
+  </section>
+
+<section >
+  <div class="Menutitle my-5">
+<h4 class="text-center"><strong>Our Menu</strong></h4>
+  </div>
+</section>
+
+<section class="container-fluid">
+<div class="row mx-0">
+  <div class="col-9 offset-1 col-lg-4 ml-5 ">
+    <div class="risotto ml-2 mt-0 ">
+    <img src="/images/milan.png" alt="..." class="img-thumbnail">
+    </div>
+  </div>
+  <div class="col-9 offset-1 mt-0 col-lg-6 mr-5 ">
+    <div class="card mt-0 ml-5 mb-5">
+      <h5 class="card-header">Risotto Milanese</h5>
+      <div class="card-body">
+        <h5 class="card-title">Our homemade Risotto</h5>
+        <p class="card-text"> Made by master Chef Elsa Forcari, Which is a journey for your taste buds to  
+          Milan for a heavenly dish A creamy taste with just a dash of Reggiano parmesan. $28.00</p>
+   
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<section class="container-fluid">
+  <div class="row mb-5  ">
+    <div class="col-9 mb-5 offset-1 col-lg-4 ml-5 ">
+      <div class="steak offset-3 mb-5 mr-0">
+      <img src="/images/sirl.png" alt="..." class="img-thumbnail">
+      </div>
+    </div>
+    <div class="col-9 offset-2 mb-5 mt-0 col-lg-5 mr-5 ">
+      <div class="card mt-5 ml-0">
+        <h5 class="card-header">Our Choice Sirloin Steak</h5>
+        <div class="card-body">
+          <h5 class="card-title">Sizzling Sirlon Steak</h5>
+          <p class="card-text"> Only the choices USDA Sirlon make our cut. We age the meath then prepare it to strict standards to create an unbelievable steak you'll never forget. $ 68.00 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </section>
+
+  <section class="container-fluid  ">
+    <div class="row mx-5 my-5">
+      <div class="col-9 mb-5 offset-1 col-lg-5 ml-5">
+        <div class="rack offset-1 mb-5 mr-0">
+        <img src="/images/racks.jpg" alt="..." class="img-thumbnail">
+        </div>
+      </div>
+      <div class=" col-9 offset-1 mt-0 col-lg-5 mr-5">
+        <div class="card mt-5 mb-5  ml-5">
+          <h5 class="card-header">Chef's Rack of Lamb</h5>
+          <div class="card-body">
+            <h5 class="card-title">Rack of Lamb</h5>
+            <p class="card-text"> Chef choice Rack of Lamb <br> with a basil splash. This is prepared 
+               to perfection. The meat is tender and juicy and just falls off the bones $56.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </section>
+
+    
+    <section class="container-fluid">
+      <div class="row my-5">
+        <div class="col-9 mb-5 offset-1 col-lg-5 mt-5 ml-5">
+          <div class="lobster offset-2 mb-5 mr-0 ">
+          <img src="/images/lobster.jpg" alt="..." class="img-thumbnail">
+          </div>
+        </div>
+        <div class="col-9 offset-1 mt-0 col-lg-5 mr-5">
+          <div class="card ml-5 mt-5">
+            <h5 class="card-header">Australian Lobster Tail</h5>
+            <div class="card-body">
+              <h5 class="card-title">Lobster Tail with Butter</h5>
+              <p class="card-text"> Our Australian Lobster tails are massive and buttered to perfection,
+                The taste is incredible and very heavenly. $60.00 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </section>  
+ 
+      
+      <section class="container-fluid">
+        <div class="row my-5">
+          <div class="col-9 mb-5 offset-1 col-lg-5 ml-5">
+            <div class="spag offset-2 mb-5 mr-0 ">
+            <img src="/images/spag.jpg" alt="..." class="img-thumbnail">
+            </div>
+          </div>
+          <div class="col-9 offset-1 mt-0 col-lg-5 mr-5 ">
+            <div class="card">
+              <h5 class="card-header">Homemade Spaghetti</h5>
+              <div class="card-body">
+                <h5 class="card-title">L</h5>
+                <p class="card-text"> Spaghetti from a family secret recipe <br> If there is one dish from La Pico Roma you should try it is our spaghetti with homemade marinara sauce. Our sauce is slow cooked with a dash of wine to add an amazing taste. $35.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        </section>      
+
+
+  
+
+   
+
+
+
+  <div class=" offset-2 container d-inline-block">
+  <div class="jumbotron shadow-lg p-3 my-5 bg-white rounded  ">
+ <div class="row my-5">
+    <div class="col-9 col-lg-5 mr-5 ">
+      <img class="pic ml-1 mr-5" src="/images/rest4.png" alt=" slide">
+    </div>
+    
+    <div class="col-9  my-5 col-lg-6 ml-3 ">
+      <h3>Enjoy Outdoor dining with are private patio. Be sure to show up Saturday when we host a live Violinist
+        In the evening there is no better way to enjoy your meal than in the outdoors on our beautiful patio. The music 
+        flows through the air audible but not too loud to interupt your enjoyable dinner.
+      </h3>
+    </div>
+  </div>
+  </div>
+  </div>
+  
+<section>
+ 
+  <div class="Wine">
+    <h4 class="text-center my-5"><strong>Current Wine Selection from Our Master Chefs</strong></h4>
+<div class="row">
+  <div class="col-md-6 col-lg-3 mt-5 ">
+    <div class="card mx-5" style="width: 16rem;">
+      <img class="card-img-top" src="/images/wine3.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Masetto Tuscany</h3>
+        <p class="card-text">Considered one of the best Tuscanny wines ever</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3 mt-5 ">
+    <div class="card mx-5" style="width: 16rem;">
+      <img class="card-img-top" src="/images/wine2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">2018 Lafite Rothschild Carruades De Lafite</h3>
+        <p class="card-text">An amazing red</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3 mt-5 ">
+    <div class="card mx-5" style="width: 16rem;">
+      <img class="card-img-top" src="/images/wine1.png" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">SIERRA CANTABRIA CRIANZA 2015</h3>
+        <p class="card-text">From Spain, just perfect</p>
+      </div>
+    </div>
+  </div>
+    <div class="col-md-6   col-lg-3 mt-5">
+      <div class="card mx-5 " style="width: 16rem;">
+        <img class="card-img-top" src="/images/wine5.png" alt="Card image cap">
+        <div class="card-body">
+          <h3 class="card-title">Marques De Murrieta</h3>
+          <p class="card-text">A wonderful red wine</p>
+        </div>
+      </div>
+
+   </div>
+ </div>
+</div>
+</section>
+
+<section>
+  <div class="space">
+  </div>
+  </section>
+  
+
+
+
+<section >
+  <h4 class="text-center mb-5"><strong>Desserts</strong></h4>
+  <div class="row mt-5">
+    <div class="col-10  col-lg-4">
+      <div class="card offset-1 mb-5" style="width: 26rem;">
+        <img class="card-img-top" src="images/gelato.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Gellato</h5>
+          <p class="card-text">Our Gelato, flavors include vanilla & chocolate. $12.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-10 col-lg-4">
+      <div class="card ml-5 mb-5" style="width: 26rem;">
+        <img class="card-img-top" src="images/tira.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Tiramisu</h5>
+          <p class="card-text">Try our amazing Tiramisu, you'll love it. $18.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-10 col-lg-4">
+      <div class="card ml-5" style="width: 26rem;">
+        <img class="card-img-top" src="images/canoli.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Cannolis</h5>
+          <p class="card-text">Like Cannolis? Try these. $11.00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section>
+<div class="space">
+</div>
+</section>
+
+<footer>
+  <div class="row border border-dark bg-dark">
+    <div class="col-2 ">
+    <img class="mich mx-2" src="/images/mich.jpg" alt=" slide">
+    </div>
+    <div class="col-2 ">
+      <img class="mich mx-2" src="/images/aa.png" alt=" slide">
+      </div>
+      <div class="col-2 ">
+        <img class="mich mx-2" src="/images/aba.jpg" alt=" slide">
+        </div>
+        <div class="col-2 ">
+          <img class="mich mx-2" src="/images/acc.jpg" alt=" slide">
+          </div>
+          <div class="col-2 ">
+            <img class="mich mx-2" src="/images/ccc.jpg" alt=" slide">
+            </div>
+            <div class="col-2 ">
+              <img class="mich mx-5" src="/images/fff.jpg" alt=" slide">
+              </div>
+  </div>
+</footer>
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
+
+
+
+
+
 </html>
