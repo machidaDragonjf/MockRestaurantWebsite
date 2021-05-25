@@ -1,17 +1,124 @@
+.pasta {
+height:50px; 
+width: 50px;
+}
+body {
+    font-family: 'Rock Salt', cursive;
+    background-color:#9c9084;
 
-form label {
-    display: block;
-    font-size: 18px;
+}
+header {
+    font-family: 'Rock Salt', cursive;
+    font-family: 24pt; 
+    background-color:#adacb3;
+}
+
+
+img {
+    height: 500px; 
+    width: 500px;
+    
+}
+
+.card {
+    height: 600px;
+    width: 550px;
+}
+
+.pic{
+    height: 650px;
+    width: 400px;
+}
+h2 {
+    font-size: 56px;
+    color: #3f372f;
+
+
+}
+p{
+    font-size: 20px;
+}
+
+.card-img-top{
+    
+    height: 250px;
+    width: 250px;
+}
+h5{
+    font-size: 24px;
+}
+
+h4{
+    color: #3f372f;
+    font-size: 30pt;
+ background-color:#9c9084;
+}
+
+.mich {
+    margin-top: 5px;
+    height: 80px;
+    width: 80px;
     margin-bottom: 5px;
-    color: gray;
-    font-family: arial;
-  }
-  
-  form textarea {
-    height: 2rem;
-    width: 100%;
-    color: #000;
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
+}
+
+.menu {
+    background-color:#adacb3;
+}
+
+
+.card {
+    Border:5px solid black;
+
+}
+
+footer {
+    height: 10%;
+    align-items:flex-end;
+}
+
+.space {
+    height: 300px;
+}
+
+h3 {
+    font-size: 14pt;
+}
+
+.jumbotron {
+    Border:5px solid black;
+}
+
+.steak {
+    height: 500px;
+    width: 500px;
+}
+
+.risotto {
+    height: 500pt;
+    width: 500pt;
+}
+
+.rack {
+    height: 400px;
+    width: 500px; 
+}
+
+.lobster {
+    height: 500px;
+    width: 500px; 
+}
+
+.spag {
+    height: 500px;
+    width: 500px;
+}
+.card{
+    width:auto;
+    height:auto; 
+}
+.img-thumbnail{
+    height: 500px;
+    width:  600px; 
+}
+
   
